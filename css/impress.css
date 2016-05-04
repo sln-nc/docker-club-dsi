@@ -9,6 +9,7 @@
     Please remember that it is not meant to be a part of impress.js and is
     not required by impress.js.
     I expect that anyone creating a presentation for impress.js would create
+    
     their own set of styles.
 
     But feel free to read through it and learn how to get the most of what
@@ -631,9 +632,9 @@ a:focus {
 .impress-enabled .hint { display: block }
 
 /*
-    ... and we will show it when the first step (with id 'bored') is active.
+    ... and we will show it when the first step (with id 'title') is active.
 */
-.impress-on-bored .hint {
+.impress-on-title .hint {
     /*
         We remove the transparency and position the hint in its default fixed
         position.
