@@ -29,10 +29,10 @@
         <ol>
             <li class="selected">Un peu d'Histoire</li>
             <li>Les concepts fondateurs</li>
-            <li>Un déballage de la Toolbox</li>
-            <li>La stratégie Docker Inc</li>
             <li>Les paradigmes promus par Docker</li>
             <li>De nouvelles problématiques</li>
+            <li>Un déballage de la Toolbox</li>
+            <li>La stratégie Docker Inc</li>
             <li>L'écosystème Docker</li>
             <li>Quelques perspectives</li>
         </ol>
@@ -89,14 +89,28 @@
 
     <section class="step slide" data-x="-2000" data-y="-1500">
         <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
+        <h1>Un peu d'Histoire : Docker en chiffres</h1>
+        <h2>Evolution du nombre de pulls sur le Docker Hub</h1><br/>
+        <img src="img/stats-docker-hub.png" alt="Nombre de pulls sur Docker Hub" width="780"/>
+    </section> 
+
+    <section class="step slide" data-x="-2000" data-y="-1500">
+        <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
+        <h1>Un peu d'Histoire : Docker en chiffres</h1>
+        <h2>Les bénéfices de Docker</h1><br/>
+        <img src="img/docker-benefits.png" alt="Docker benefits" width="780"/>
+    </section> 
+
+    <section class="step slide" data-x="-2000" data-y="-1500">
+        <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
         <h1>Le plan</h1><br/>
         <ol>
             <li>Un peu d'Histoire</li>
             <li class="selected">Les concepts fondateurs</li>
-            <li>Un déballage de la Toolbox</li>
-            <li>La stratégie Docker Inc</li>
             <li>Les paradigmes promus par Docker</li>
             <li>De nouvelles problématiques</li>
+            <li>Un déballage de la Toolbox</li>
+            <li>La stratégie Docker Inc</li>
             <li>L'écosystème Docker</li>
             <li>Quelques perspectives</li>
         </ol>
@@ -106,27 +120,12 @@
         <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
         <h1>Les concepts fondateurs</h1><br/>
         <ol>
-            <li>Une première approche</li>
             <li>L'allégorie du container</li>
             <li>Le slogan devOPS</li>
             <li>Le container linux LXC</li>
+            <li>En résumé</li>
         </ol>
     </section>  
-
-    <section class="step slide" data-x="-2000" data-y="-1500">
-        <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
-        <h1>Concepts fondateurs : Une première approche</h1><br/>
-        <ol>
-            <li>Un mode de virtualisation léger et rapide</li>
-            <li>Initialement basé sur les containers linux LXC</li><br/>
-            <li>Une execution isolée</li>
-            <li>Avec maitrise des flux (port, montage disque)</li><br/>
-            <li>Un mécanisme de gestion de configuration</li>
-            <li>Avec des scripts d'installation versionnés</li><br/>
-            <li>Un outil de déploiement simple et intégré</li>
-            <li>Avec un dépôt central des images à installer</li>
-        </ol>
-    </section> 
 
     <section class="step slide" data-x="-2000" data-y="-1500">
         <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
@@ -181,9 +180,16 @@
     <section class="step slide" data-x="-2000" data-y="-1500">
         <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
         <h1>Concepts fondateurs : Le slogan devOPS</h1>
-        <h2>"Build, ship and run any app, anywhere"</h1>
+        <h2>"Build, Ship, Run, Any App Anywhere"</h1>
         <img src="img/docker-build-ship-run.png" alt="Build ship run" width="615"/>
         <img src="img/docker-slogan.png" alt="Slogan docker" width="700"/>
+    </section>
+
+    <section class="step slide" data-x="-2000" data-y="-1500">
+        <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
+        <h1>Concepts fondateurs : Le slogan devOPS</h1>
+        <h2>"Build, Ship, Run, Any App Anywhere"</h1><br/>
+        <img src="img/docker-build-ship-run-app.png" alt="Build ship run" width="790"/>
     </section>
 
     <section class="step slide" data-x="-2000" data-y="-1500">
@@ -200,14 +206,209 @@
 
     <section class="step slide" data-x="-2000" data-y="-1500">
         <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
+        <h1>Concepts fondateurs : En résumé</h1><br/>
+        <ol>
+            <li>Un mode de virtualisation léger et rapide</li>
+            <li>Initialement basé sur les containers linux LXC</li><br/>
+            <li>Une execution isolée</li>
+            <li>Avec maitrise des flux (port, montage disque)</li><br/>
+            <li>Un mécanisme de gestion de configuration</li>
+            <li>Avec des scripts d'installation versionnés</li><br/>
+            <li>Un outil de déploiement simple et intégré</li>
+            <li>Avec un dépôt central des images à installer</li>
+        </ol>
+    </section> 
+
+    <section class="step slide" data-x="-2000" data-y="-1500">
+        <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
         <h1>Le plan</h1><br/>
         <ol>
             <li>Un peu d'Histoire</li>
             <li>Les concepts fondateurs</li>
-            <li class="selected">Un déballage de la Toolbox</li>
+            <li class="selected">Les paradigmes promus par Docker</li>
+            <li>De nouvelles problématiques</li>
+            <li>Un déballage de la Toolbox</li>
             <li>La stratégie Docker Inc</li>
+            <li>L'écosystème Docker</li>
+            <li>Quelques perspectives</li>
+        </ol>
+    </section>
+
+    <section class="step slide" data-x="-2000" data-y="-1500">
+        <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
+        <h1>Les paradigmes promus par Docker</h1><br/>
+        <ol>
+            <li>Les Microservices / Architecture WOA</li>
+            <li>Polyglot Programming / Polyglot Persistence</li>
+            <li>devOPS</li>
+            <li>Infrastructure as code</li>
+            <li>Immutable infrastructure</li>
+            <li>Continuous Deployment</li>
+            <li>Pets vs Cows</li>
+            <li>Phoenix servers</li>
+            <li>Self healing</li>
+            <li>Dynamic partionning</li>
+            <li>Scale cube</li>
+        </ol>
+    </section> 
+
+    <section class="step slide" data-x="-2000" data-y="-1500">
+        <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
+        <h1>Les paradigmes promus : Les Microservices</h1>
+        <h2>Une définition de James Lewis et Martin Fowler</h2><br/>
+        <p><i>In short, the microservice architectural style is an approach to developing a single application as a <b>suite of small services</b>, each <b>running in its own process</b> and communicating with lightweight mechanisms, often an HTTP resource API. These services are <b>built around business capabilities</b> and <b>independently deployable</b> by fully automated deployment machinery. There is a <b>bare minimum of centralized management</b> of these services, which may be written in different programming languages and use different data storage technologies.</i></p><br/>
+        <span class="slide-corner-bottom"><img src="img/martin-fowler.jpg" alt="Martin Fowler" width="70"/></span>
+    </section> 
+
+    <section class="step slide" data-x="-2000" data-y="-1500">
+        <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
+        <h1>Les paradigmes promus : Les Microservices</h1>
+        <h2>Martin Fowler, "Common characteristics of this new architectural style"</h2><br/>
+        <ol>
+            <li>Componentization via Services</li>
+            <li>Organized around Business Capabilities</li>
+            <li>Products not Projects</li>
+            <li>Smart endpoints and dumb pipes</li>
+            <li>Decentralized Governance</li>
+            <li>Decentralized Data Management</li>
+            <li>Infrastructure Automation</li>
+            <li>Design for failure</li>
+            <li>Evolutionary Design</li>
+        </ol>
+        <span class="slide-corner-bottom"><img src="img/martin-fowler.jpg" alt="Martin Fowler" width="70"/></span>
+    </section> 
+
+    <section class="step slide" data-x="-2000" data-y="-1500">
+        <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
+        <h1>Les paradigmes promus : Les Microservices</h1>
+        <h2>Un changement d'architecture qui implique de s'adapter</h2>
+        <img src="img/monolith-to-microservices.png" alt="Monolith to Microservices" width="830"/>
+        <ol>
+            <li>Vers une augmentation croissante du nombre de services</li>
+            <li>du nombre de déploiements</li>
+            <li>et donc de la charge d'activité sur les OPS</li>
+        </ol>
+    </section> 
+
+    <section class="step slide" data-x="-2000" data-y="-1500">
+        <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
+        <h1>Les paradigmes promus : Polyglot</h1>
+        <h2>Polyglot Persistence and  Programming : The right tool for the job</h2><br/>
+        <img src="img/decentralised-data.png" alt="Polyglot Persistence" width="830"/>
+        <span class="slide-corner-bottom"><img src="img/martin-fowler.jpg" alt="Martin Fowler" width="70"/></span>
+    </section> 
+
+    <section class="step slide" data-x="-2000" data-y="-1500">
+        <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
+        <h1>Les paradigmes promus : Les Microservices</h1>
+        <h2>Les compromis à trouver</h2><br/>
+        <img src="img/microservices-trade-offs.png" alt="Microservices trade-offs" width="835"/>
+        <span class="slide-corner-bottom"><img src="img/martin-fowler.jpg" alt="Martin Fowler" width="70"/></span>
+    </section> 
+
+    <section class="step slide" data-x="-2000" data-y="-1500">
+        <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
+        <h1>Les paradigmes promus : Les Microservices</h1><br/>
+        <h2>Les défits à relever</h2>
+        <ol>
+            <li>Comment gérer l'explosion du nombre de services, de déploiements, de versions ?</li>
+            <li>Comment faciliter les nombreux déploiements ?</li>
+            <li>Quelle startégie de versionning applicatif ?</li>
+            <li>Comment adminsitrer pléthore de technologies et bases de données ?</li>
+            <li>Decentralized Governance</li>
+            <li>Decentralized Data Management</li>
+            <li>Infrastructure Automation</li>
+            <li>Design for failure</li>
+            <li>Evolutionary Design</li>
+        </ol>
+    </section> 
+
+    <section class="step slide" data-x="-2000" data-y="-1500">
+        <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
+        <h1>Les paradigmes promus : Les Microservices</h1><br/>
+        <ol>
+            <li>Componentization via Services</li>
+            <li>Organized around Business Capabilities</li>
+            <li>Products not Projects</li>
+            <li>Smart endpoints and dumb pipes</li>
+            <li>Decentralized Governance</li>
+            <li>Decentralized Data Management</li>
+            <li>Infrastructure Automation</li>
+            <li>Design for failure</li>
+            <li>Evolutionary Design</li>
+        </ol>
+    </section> 
+
+    <section class="step slide" data-x="-2000" data-y="-1500">
+        <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
+        <h1>Les paradigmes promus : Les Microservices</h1><br/>
+        <ol>
+            <li>Componentization via Services
+            <li>Organized around Business Capabilities
+            <li>Products not Projects
+            <li>Smart endpoints and dumb pipes
+            <li>Decentralized Governance
+            <li>Decentralized Data Management
+            <li>Infrastructure Automation
+            <li>Design for failure
+            <li>Evolutionary Design
+        </ol>
+    </section> 
+
+    <section class="step slide" data-x="-2000" data-y="-1500">
+        <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
+        <h1>Les paradigmes promus : Les Microservices</h1><br/>
+        <ol>
+            <li>Componentization via Services
+            <li>Organized around Business Capabilities
+            <li>Products not Projects
+            <li>Smart endpoints and dumb pipes
+            <li>Decentralized Governance
+            <li>Decentralized Data Management
+            <li>Infrastructure Automation
+            <li>Design for failure
+            <li>Evolutionary Design
+        </ol>
+    </section> 
+
+    <section class="step slide" data-x="-2000" data-y="-1500">
+        <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
+        <h1>Le plan</h1><br/>
+        <ol>
+            <li>Un peu d'Histoire</li>
+            <li>Les concepts fondateurs</li>
+            <li>Les paradigmes promus par Docker</li>
+            <li class="selected">De nouvelles problématiques</li>
+            <li>Un déballage de la Toolbox</li>
+            <li>La stratégie Docker Inc</li>
+            <li>L'écosystème Docker</li>
+            <li>Quelques perspectives</li>
+        </ol>
+    </section>
+ 
+    <section class="step slide" data-x="-2000" data-y="-1500">
+        <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
+        <h1>De nouvelles problématiques</h1><br/>
+        <ol>
+            <li>Discovery backend</li>
+            <li>Serice discovery</li>
+            <li>Leader election</li>
+            <li>Data volume container</li>
+            <li>Volume des images</li>            
+            <li>...</li>            
+        </ol>
+    </section> 
+
+    <section class="step slide" data-x="-2000" data-y="-1500">
+        <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
+        <h1>Le plan</h1><br/>
+        <ol>
+            <li>Un peu d'Histoire</li>
+            <li>Les concepts fondateurs</li>
             <li>Les paradigmes promus par Docker</li>
             <li>De nouvelles problématiques</li>
+            <li class="selected">Un déballage de la Toolbox</li>
+            <li>La stratégie Docker Inc</li>
             <li>L'écosystème Docker</li>
             <li>Quelques perspectives</li>
         </ol>
@@ -624,34 +825,6 @@ hello-world:
             <li>Offre commerciale</li>
             <li>Plumbing</li>
             <li>Open Std.</li>
-        </ol>
-    </section> 
-
-    <section class="step slide" data-x="-2000" data-y="-1500">
-        <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
-        <h1>Les paradigmes promus par Docker</h1><br/>
-        <ol>
-            <li>devOPS</li>
-            <li>Dynamic paritionning</li>
-            <li>Immutable infrastructure</li>
-            <li>Pets vs Cows</li>
-            <li>Phoenix servers</li>
-            <li>Microservices / WOA</li>
-            <li>Infrastructure as code</li>
-            <li>Horizontal scaling</li>
-        </ol>
-    </section> 
- 
-    <section class="step slide" data-x="-2000" data-y="-1500">
-        <span class="slide-corner"><img src="img/docker-logo.jpg" alt="docker logo" height="42" width="42"/></span>
-        <h1>De nouvelles problématiques</h1><br/>
-        <ol>
-            <li>Discovery backend</li>
-            <li>Serice discovery</li>
-            <li>Leader election</li>
-            <li>Data volume container</li>
-            <li>Volume des images</li>            
-            <li>...</li>            
         </ol>
     </section> 
 
