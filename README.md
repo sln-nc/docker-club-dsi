@@ -1,4 +1,4 @@
-![Speaker avater](/speaker.png)
+![Speaker avater](/speaker.jpg)
 
 **Session** : Présentation du Docker Meetup Nouméa et introduction à Docker
 
