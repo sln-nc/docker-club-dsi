@@ -1,7 +1,3 @@
-### Présentation d'outils de logs
-
-http://mfilotto.github.io/docker-presentation
-
 #### Crédit :
 Réalisée avec le framework de présentation [impress.js](https://github.com/impress/impress.js)
 
