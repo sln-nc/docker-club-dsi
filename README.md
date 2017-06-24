@@ -4,6 +4,8 @@
 
 **Speaker : Mathieu Filotto**, architecte logiciel et formateur, spécialiste des technologies de développement et d’industrialisation. Organisateur du Docker Meetup Nouméa
 
+**Accès à la vidéo Youtube** : https://www.youtube.com/watch?v=8IKSm1dpoEg
+
 #### Crédit :
 Réalisée avec le framework de présentation [impress.js](https://github.com/impress/impress.js)
 
