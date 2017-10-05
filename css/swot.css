@@ -1,0 +1,49 @@
+.center{
+  text-align: center;
+}
+
+textarea{
+  resize: none;
+  font-size: 0.9em;
+  border-width: 3px;
+  padding: 10px;
+  width: 300px;
+  height: 230px;
+  border-radius: 10px;
+  white-space: pre-wrap;  
+}
+
+.row{
+  width: 100%;
+  padding-bottom: 10px;
+  background: rgba(255,255,255,0.3);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.strength{
+  border-color: #2196F3;
+  color: #2196F3
+}
+
+.weak{
+  border-color: #FF8A65;
+  color: #FF5722
+}
+
+.opportunity{
+  border-color: #43A047;
+  color: #43A047
+}
+
+.threat{
+  border-color: #e53935;
+  color: #e53935
+}
+
+@media (min-width: 1024px){
+  textarea{
+    width: 350px;
+  }
+}
